@@ -1,5 +1,8 @@
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
+import Image1 from '../Pictures/one.jpg';
+import Image2 from '../Pictures/two.jpg';
+import Image3 from '../Pictures/three.jpg';
 
 function Para() {
 return (
@@ -8,7 +11,7 @@ return (
   <Carousel.Item>
     <img height={500}
       className="d-block w-100"
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAADNCAMAAAC8cX2UAAAAA1BMVEWDhYToKLM0AAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuA8XLAAFcyH30AAAAAElFTkSuQmCC"
+      src={Image1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,7 +22,7 @@ return (
   <Carousel.Item>
     <img height={500}
       className="d-block w-100"
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAADNCAMAAAC8cX2UAAAAA1BMVEWDhYToKLM0AAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuA8XLAAFcyH30AAAAAElFTkSuQmCC"
+      src={Image2}
       alt="Second slide"
     />
 
@@ -31,7 +34,7 @@ return (
   <Carousel.Item>
     <img height={500}
       className="d-block w-100"
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAADNCAMAAAC8cX2UAAAAA1BMVEWDhYToKLM0AAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuA8XLAAFcyH30AAAAAElFTkSuQmCC"
+      src={Image3}
       alt="Third slide"
     />
 
